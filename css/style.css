@@ -268,8 +268,9 @@ footer {
   font-size: 20px;
 }
 .quarterDiv .quarterImg {
-  width: 8%;
+  width: 15%;
   margin-bottom: 1rem;
+  object-fit: contain;
 }
 
 .roadmapheading,
@@ -305,6 +306,7 @@ footer {
 .utilitiesdiv img {
   width: 40%;
   margin-right: 2rem;
+  object-fit: contain;
 }
 
 .FAQs {
