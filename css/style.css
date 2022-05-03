@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "VT323", monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 *,
 *::before,
@@ -86,7 +86,7 @@ button {
 }
 /* ==== LOGO ==== */
 .logo h2 {
-  font-size: 48px;
+  font-size: 26px;
   color: #fff;
 }
 /* ====  NAV-MENU  ==== */
@@ -98,7 +98,7 @@ button {
   margin: 0 1rem;
 }
 .nav_menu_item .nav_menu_link {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 27px;
   color: #fff;
   text-transform: capitalize;
@@ -140,19 +140,28 @@ button {
   padding-top: 5rem;
   padding-left: 1.5rem;
 }
+
 .main-heading {
-  font-weight: 300;
+  font-weight: 700;
   font-size: 40px;
   line-height: 55px;
 }
+
+.main-heading-p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 .main-heading span {
   color: #fff;
 }
 .info-text {
   margin-top: 1.5rem;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 16px;
   color: #fff;
+  font-weight: 200;
 }
 .btn_wrapper {
   margin-top: 3.5rem;
@@ -313,6 +322,10 @@ footer {
   line-height: 1.5;
 }
 
+.quarterText {
+  line-height: 2;
+}
+
 .utilitiesdiv {
   display: flex;
   flex-flow: row nowrap;
@@ -326,11 +339,19 @@ footer {
   /* align-items: center; */
   line-height: 1.5;
   font-size: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.utilitiesdiv img {
+.utilitiesimg {
   width: 40%;
   margin-right: 2rem;
+  object-fit: contain;
+}
+
+.collectionimg {
+  width: 40%;
+  margin-left: 2rem;
   object-fit: contain;
 }
 
