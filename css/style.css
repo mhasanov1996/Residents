@@ -103,6 +103,8 @@ button {
   color: #fff;
   text-transform: capitalize;
   letter-spacing: 0.5px;
+  display: block;
+  padding: 1.3px;
 }
 .nav_menu_link:hover {
   color: lightgray;
@@ -435,7 +437,7 @@ footer {
 @media screen and (max-width: 768px) {
   .logo h2 {
     /* font-size: 23px; */
-    font-size: 40px;
+    font-size: 26px;
   }
   .nav_menu {
     position: fixed;
