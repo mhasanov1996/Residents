@@ -526,6 +526,9 @@ footer {
     text-align: center;
     line-height: 40px;
   }
+  .main-heading-p {
+    text-align: center;
+  }
   .info-text {
     font-size: 16px;
     text-align: center;
