@@ -266,8 +266,26 @@ button {
   font-size: 15.5px;
 }
 
+/* .bg-img {
+  background-image: url("../img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.roadmapWhole img {
+  width: 100%;
+}
+
+.roadmapdivs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around`;
+}
+/* .quarterDiv {
+  min-width: 40%;
+} */
+
 footer {
-  box-shadow: ;
   border-top: 1px solid black;
   margin-top: 8rem;
   background-color: #fde9ea;
@@ -287,15 +305,16 @@ footer {
 }
 
 .quarterDiv {
+  flex-basis: 340px;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column;
   text-align: left;
-  width: 100%;
   padding-left: 1.7rem;
   padding-right: 1.7rem;
   margin-bottom: 2rem;
   font-size: 20px;
 }
+
 .quarterDiv .quarterImg {
   width: 15%;
   margin-bottom: 1rem;
@@ -339,7 +358,7 @@ footer {
 }
 
 .utilitiesimg {
-  width: 40%;
+  max-width: 40%;
   margin-right: 2rem;
   object-fit: contain;
 }
@@ -493,6 +512,13 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+  .utilitiesimg {
+    max-width: 100%;
+  }
+
+  .collectionimg {
+    width: 100%;
+  }
   .wrapper {
     padding-top: 3rem;
   }
